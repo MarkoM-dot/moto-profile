@@ -89,3 +89,8 @@ In my opinion a library used for mocking aws should avoid this undesirable
 behavior and the solution should really involve calling this session
 in a function and caching it for reuse. But, for the time being I
 have a workaround in `test_solution.py`.
+
+## Latest News
+
+The above discussion has resulted in a change in the moto library and as 
+of 5.0.23 should no longer be an issue due to this [PR](https://github.com/getmoto/moto/pull/8369).
